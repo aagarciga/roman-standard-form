@@ -1,2 +1,2 @@
-# -aagarciga-roman-number
+# roman-number
 Roman number converter
