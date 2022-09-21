@@ -1,5 +1,5 @@
 {
-  "name": "@aagarciga/roman-number",
+  "name": "roman-number",
   "version": "1.0.0",
   "description": "Helper functions for working with roman numerals.",
   "main": "lib/index.js",
