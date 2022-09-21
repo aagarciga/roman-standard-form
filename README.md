@@ -31,7 +31,7 @@ The numerals for 4 (IV) and 9 (IX) are written using "subtractive notation", whe
 ### romanNumeral.fromDecimal()
 
 ```javascript
-import romanNumeral from 'roman-number';
+import romanNumeral from '@aagarciga/roman-number';
 ...
 const year = 2022;
 const result = romanNumeral.fromDecimal(year);
@@ -42,7 +42,7 @@ console.log(result); // will print 'MMXXII'
 ### romanNumeral.toDecimal()
 
 ```javascript
-import romanNumeral from 'roman-number';
+import romanNumeral from '@aagarciga/roman-number';
 ...
 const roman = "MMXXII";
 const result = romanNumeral.toDecimal(roman);

@@ -1,7 +1,7 @@
 {
   "name": "@aagarciga/roman-number",
   "version": "1.0.0",
-  "description": "Roman number converter",
+  "description": "Helper functions for working with roman numerals.",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
@@ -14,7 +14,9 @@
   "keywords": [
     "roman",
     "numeric",
-    "system"
+    "numeral",
+    "roman numeral",
+    "roman standard form"
   ],
   "author": "Alex Alvarez Gárciga <aagarciga@gmail.com>",
   "license": "MIT",
