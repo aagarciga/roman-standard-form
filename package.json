@@ -2,7 +2,11 @@
   "name": "@aagarciga/roman-number",
   "version": "1.0.0",
   "description": "Helper functions for working with roman numerals.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "jest --coverage",
     "prepublish": "tsc --project tsconfig.build.json"
@@ -15,8 +19,9 @@
     "roman",
     "numeric",
     "numeral",
-    "roman numeral",
-    "roman standard form"
+    "decimal",
+    "toDecimal",
+    "fromDecimal"
   ],
   "author": "Alex Alvarez Gárciga <aagarciga@gmail.com>",
   "license": "MIT",
