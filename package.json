@@ -1,0 +1,30 @@
+{
+  "name": "@aagarciga/roman-number",
+  "version": "1.0.0",
+  "description": "Roman number converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "prepublish": "tsc --project tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aagarciga/roman-number.git"
+  },
+  "keywords": [
+    "roman",
+    "numeric",
+    "system"
+  ],
+  "author": "Alex Alvarez Gárciga <aagarciga@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aagarciga/roman-number/issues"
+  },
+  "homepage": "https://github.com/aagarciga/roman-number#readme",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "ts-jest": "^29.0.1",
+    "typescript": "^4.8.3"
+  }
+}
