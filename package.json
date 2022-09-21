@@ -1,6 +1,6 @@
 {
-  "name": "roman-number",
-  "version": "1.0.0",
+  "name": "roman-standard-form",
+  "version": "1.0.1",
   "description": "Helper functions for working with roman numerals.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aagarciga/roman-number.git"
+    "url": "git+https://github.com/aagarciga/roman-standard-form.git"
   },
   "keywords": [
     "roman",
@@ -26,9 +26,9 @@
   "author": "Alex Alvarez Gárciga <aagarciga@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aagarciga/roman-number/issues"
+    "url": "https://github.com/aagarciga/roman-standard-form/issues"
   },
-  "homepage": "https://github.com/aagarciga/roman-number#readme",
+  "homepage": "https://github.com/aagarciga/roman-standard-form#readme",
   "devDependencies": {
     "@types/jest": "^29.0.3",
     "ts-jest": "^29.0.1",

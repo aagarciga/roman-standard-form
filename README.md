@@ -1,4 +1,4 @@
-# roman-number [![Language Typescript](https://img.shields.io/badge/language-typescript-blue)](https://www.typescriptlang.org/) [![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#)
+# roman-standard-form [![Language Typescript](https://img.shields.io/badge/language-typescript-blue)](https://www.typescriptlang.org/) [![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#)
 
 Helper functions for working with roman numerals.
 
@@ -31,7 +31,7 @@ The numerals for 4 (IV) and 9 (IX) are written using "subtractive notation", whe
 ### romanNumeral.fromDecimal()
 
 ```javascript
-import romanNumeral from 'roman-number';
+import romanNumeral from 'roman-standard-form';
 ...
 const year = 2022;
 const result = romanNumeral.fromDecimal(year);
@@ -42,7 +42,7 @@ console.log(result); // will print 'MMXXII'
 ### romanNumeral.toDecimal()
 
 ```javascript
-import romanNumeral from 'roman-number';
+import romanNumeral from 'roman-standard-form';
 ...
 const roman = "MMXXII";
 const result = romanNumeral.toDecimal(roman);
